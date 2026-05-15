@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="topbar">
+            <div class="logo"></div>
+            <div class="title">NEXUS</div>
+            <div class="portal">PORTAL</div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="first">THE ULTIMATE CLIPPING INFRASTRUCTURE</div>
+        <div class="HeadLine HL1">GROW YOUR BRAND</div>
+        <div class="HeadLine HL2">WITH CLIPPING.</div>
+        <div class="cc">We build you a mass content distribution system that scales your brand to new heights with an
+            army of clippers.</div>
+    </div>
+    <div class="claims">
+        <div class="ViewsClaim ClaimCont">
+            <div class="NumViews Num">280,000,000+</div>
+            <div class="ViewsT T">VIEWS GENERATED FOR ONE OF OUR CLIENTS</div>
+        </div>
+        <div class="SubsClaim ClaimCont">
+            <div class="NumSubs Num">625,000+</div>
+            <div class="SubsT T">RESULTING SUBSRCRIBERS GROWTH</div>
+        </div>
+    </div>
+    <div class="CF">
+        <div class="CFText">WORKING WITH 15+ OF THE WORLD'S LARGEST CREATORS AND FOUNDERS</div>
+    </div>
+    <div class="SliderCont">
+        <div class="Slider">
+            <div class="item i1">STREAMERS</div>
+            <div class="item i2">COACHES</div>
+            <div class="item i3">CREATORS</div>
+            <div class="item i4">MUSICIANS</div>
+            <div class="item i5">ATHLETES</div>
+            <div class="item i6">BRANDS</div>
+            <div class="item i1">STREAMERS</div>
+            <div class="item i2">COACHES</div>
+            <div class="item i3">CREATORS</div>
+            <div class="item i4">MUSICIANS</div>
+            <div class="item i5">ATHLETES</div>
+            <div class="item i6">BRANDS</div>
+        </div>
+        
+    </div>
+    <div class="ContactSec">
+        <div class="ContactTitle">CONNECT WITH OUR COMMUNITY</div>
+        <div class="ContactCC">Join the army of creators dominating the digital space.</div>
+        <div class="CardSec">
+            <a href="https://discord.gg/NmYKQjJBU2" target="_blank" class="Discord Card">DISCORD</a>
+            <a href="https://chat.whatsapp.com/KZFHke579k2ETgc8fhzItG?mode=gi_t" target="_blank" class="WSP Card">WHATSAPP</a>
+            <a href="https://www.instagram.com/nexusmediaorg?igsh=MWpxMDd4NW9nbHJ6ZA==" target="_blank" class="Insta Card">INSTAGRAM</a>
+            <a href="https://whop.com/nexusmediaorg" target="_blank" class="Whop Card">WHOP</a>
+        </div>
+    </div>
+    <div class="Results">
+        <div class="RTitle ContactTitle">OUR RESULTS</div>
+        <div class="RCC ContactCC">Mass distribution strategies that crush the algorithm.</div>
+    </div>
+    <div class="Videos">
+        <div class="Video v1"><video preload="auto" muted loop src="v1.mp4"></video></div>
+        <div class="Video v2"><video preload="auto" muted loop src="v2.mp4"></video></div>
+        <div class="Video v3"><video preload="auto" muted loop src="v3.mp4"></video></div>
+        <div class="Video v4"><video preload="auto" muted loop src="v4.mp4"></video></div>
+        <div class="Video v5"><video preload="auto" muted loop src="v5.mp4"></video></div>
+        <div class="Video v6"><video preload="auto" muted loop src="v2.mp4"></video></div>
+    </div>
+    <div class="Founder">
+        <div class="ContactTitle">DIRECT FROM THE FOUNDER</div>
+        <div class="ContactCC">Direct access to the elite team behind the engine.</div>
+    </div>
+    <div class="FCards">
+        <div class="FCard">
+            <div class="mailT CardT">EMAIL</div>
+            <div class="mail Cardm">nexus@thenexusmedia.org</div> 
+        </div>
+        <div class="FCard">
+            <div class="numT CardT">PHONE</div>
+            <div class="num Cardm">+91 9834613309</div></div>
+        <div class="FCard">
+            <div class="igT CardT">INSTAGRAM</div>
+            <div class="ig Cardm">@aryan_kole</div>
+        </div>
+    </div>
+    <script>
+        const videos = document.querySelectorAll("video");
+
+videos.forEach((video) => {
+  video.addEventListener("mouseenter", () => {
+    video.play();
+  });
+
+  video.addEventListener("mouseleave", () => {
+    video.pause();
+    video.currentTime = 0;
+  });
+});
+    </script>
+</body>
+
+</html>

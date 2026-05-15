@@ -1,0 +1,339 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'inter';
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+::-webkit-scrollbar-button{
+    background-color: #ff0000;
+}
+
+.top {
+    height: fit-content;
+    width: 85vw;
+    justify-self: center;
+    justify-items: center;
+}
+
+.topbar {
+    max-width: 85vw;
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.696);
+    margin-top: -125px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 166, 0, 0.266);
+    box-shadow: 0px 0px 100px #b6480302;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+.portal {
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(188, 188, 188);
+    line-height: 20px;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.portal:hover{
+    transition: 0.2s;
+    color: #ff6b00;
+}
+
+.main {
+    justify-items: center;
+    margin-top: 150px;
+}
+
+.first {
+    font-size: 10px;
+    color: rgb(249 114 22);
+    letter-spacing: 0.4em;
+    font-weight: 700;
+    background-color: rgba(255, 166, 0, 0.058);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 166, 0, 0.088);
+}
+
+.HL1 {
+    margin-top: 25px;
+}
+
+.HeadLine {
+    font-family: 'OutFIt';
+    font-weight: 700;
+    font-size: 128px;
+    letter-spacing: -6px;
+    line-height: 128px;
+}
+
+.HL2 {
+    text-shadow: 0 0 15px rgba(255, 107, 0, .5);
+    background: linear-gradient(135deg, #fff 0%, #ff6b00 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cc {
+    color: rgb(113, 113, 122);
+    font-size: 20px;
+    line-height: 33px;
+    width: 650px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.claims{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: max-content max-content ;
+    column-gap: 70px;
+    justify-content: center;
+}
+
+.Num {
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'inter';
+    font-weight: 700;
+}
+
+.T{
+    color: rgb(82, 82, 91);
+    font-weight: 700;
+    display: flex;
+    gap: 70px;
+    justify-items: center;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .2em;
+    margin-top: 10px;
+}
+.CF{
+    padding: 100px;
+    justify-items: center;
+    color: rgb(212, 212, 216);
+}
+.CFText{
+    padding: 20px 30px;
+    letter-spacing: 0.15em;
+    background-color: rgb(15, 15, 15);
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 30px;
+}
+
+.SliderCont{
+    display: flex;
+    justify-self: center;
+    max-width: 85vw;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 200px;
+    overflow-x: auto;
+}
+
+.SliderCont::-webkit-scrollbar{
+    display: none;
+}
+
+.Slider{
+    display: flex;
+    width: 100%;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: 'inter';
+    column-gap: 50px;
+    letter-spacing: 8px;
+    color: rgb(255, 255, 255 , 0.2);
+    animation: Slide 15s linear infinite ;
+}
+
+@keyframes Slide {
+    from{
+      translate: 0%;
+    }
+    to{
+      translate:-100%;
+    }
+}
+
+.item{
+    transition: 0.2s;
+}
+.item:hover{
+    transition: 0.2s;
+   color: rgba(249, 115, 22 , 0.2);
+}
+.ContactSec{
+    justify-items: center;
+}
+.ContactTitle{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'OutFit';
+    line-height: 40px;
+}
+.ContactCC{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgb(113, 113, 122);
+}
+
+.CardSec{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.Card{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid rgb(21, 21, 21);
+    background-color: rgb(6, 6, 6);
+    text-align: center;
+    align-content: center;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(172, 172, 172);
+    transition: 0.2s;
+}
+
+.Card:hover{
+    transition: 0.2s;
+    color: white;
+    border-color:#a04300 ;
+    background-color: #130800;
+    font-size: 15px;
+}
+
+.Results{
+    margin-top: 150px;
+    justify-items: center;
+}
+.RTitle{
+    line-height: 48px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.Videos{
+    justify-self: center;
+display: grid;
+margin-top: 80px;
+width: 85vw;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 50px;
+justify-items: center;
+}
+
+.Video{
+    border: 1px solid rgb(35, 35, 35);
+    height: 600px;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.Founder{
+    margin-top: 150px;
+    justify-items: center;
+}
+
+.FCards{
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    margin-top: 50px;
+    margin-bottom: 20vh;
+}
+
+.FCard{
+     width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid rgb(21, 21, 21);
+    background-color: rgb(6, 6, 6);
+    text-align: center;
+    align-content: center;
+    transition: 0.2s;
+}
+
+.CardT{
+    color: rgb(113, 113, 122);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.Cardm{
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.FCard:hover{
+   transition: 0.2s;
+   border-color:#632900;
+   background-color:#090400;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    /* z-index: 10; */
+    scale: 120%;
+    transition: 0.3s;
+}
+
+.Video{
+    overflow: hidden;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.Video:hover{
+ transition: 0.5s;
+ border-color: #552300;
+ opacity: 1;
+}
+
+video:hover{
+    transition: 0.5s;
+    scale: 125%;
+}
+
