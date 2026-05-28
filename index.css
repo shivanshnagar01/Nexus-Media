@@ -32,12 +32,16 @@ body {
     border: 1px solid rgba(255, 166, 0, 0.266);
     box-shadow: 0px 0px 100px #b6480302;
     position: fixed;
+    align-items: center;
+    display: flex;
     z-index: 10;
 }
 
 .logo {
     margin-left: 30px;
     display: inline-block;
+    height: 40px;
+    width:auto;
 }
 
 .title {
@@ -258,8 +262,11 @@ body {
 display: grid;
 margin-top: 80px;
 width: 85vw;
+max-width: 100vw;
+width: 90%;
 grid-template-columns: 1fr 1fr 1fr;
 row-gap: 50px;
+column-gap: 30px;
 justify-items: center;
 }
 
