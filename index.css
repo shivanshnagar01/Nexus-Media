@@ -323,7 +323,7 @@ video{
 
 .Video{
     overflow: hidden;
-    opacity: 0.8;
+    opacity: 0.6;
     transition: 0.3s;
 }
 
